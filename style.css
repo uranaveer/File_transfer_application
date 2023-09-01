@@ -1,0 +1,49 @@
+#page_container{
+    overflow: auto;
+}
+#parent_ft{
+    display: grid;
+    place-items: center;
+}
+.File_transfer{
+    background-color: #ADC4CE;
+    border: 3px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+}
+#heading1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'open sans';
+    padding: 20px;
+}
+#heading2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'open sans';
+    padding: 20px;
+}
+.round_button{
+    background-color: #F1F0E8;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 25px;
+    cursor: pointer;
+}
+#b_container{
+   text-align: center;
+    padding: 10px;
+    gap: 20px;
+}
+#bottom_section{
+    text-align: center;
+    background-color: #EEE0C9;
+    position: absolute;
+    top: 450px;
+    bottom: 0;
+    width: 100%;
+    border-radius: 30px;
+    overflow-x: auto;
+}
